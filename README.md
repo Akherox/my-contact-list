@@ -17,8 +17,8 @@ Aplicativo de agenda de contatos, feito com React pondo na pratica a instrução
 
 ### Rascunho
 
-<!-- ![](/src/imagens/Portofolio.png)
-<div> 
+![](/public/Rascunho.jpg)
+<!-- <div> 
   <img align="center" height="150em" src="/src/imagens/Contato.png" />
   <img align="center" height="150em" src="/src/imagens/Sobre.png" />
   <img align="center" height="150em" src="/src/imagens/Habilidades.png" />
