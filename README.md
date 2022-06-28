@@ -27,7 +27,7 @@ Aplicativo de agenda de contatos, feito com React pondo na pratica a instrução
 ### Links
 
 - Codigo na web URL: [GitHub](https://github.com/Akherox/my-contact-list)
-- Site ao vivo URL: [Vercel Pages](https://my-contact-list-akherox.vercel.app/)
+- Site ao vivo URL: [Heroku Apps](https://my-contact-list-api.herokuapp.com/)
 
 ## Meu processo
 
