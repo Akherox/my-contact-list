@@ -1,0 +1,28 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "nome": "James Tomsom",
+      "email": "james@tomsom.email",
+      "telefone": "1111-1111"
+    },
+    {
+      "id": 2,
+      "nome": "Foo Bar",
+      "email": "john@doe.email",
+      "telefone": "2222-2222"
+    },
+    {
+      "nome": "Alice Smith",
+      "email": "alice@smith.email",
+      "telefone": "3333-3333",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "nome": "Mike Roods",
+      "email": "mike@roods.email",
+      "telefone": "4444-4444"
+    }
+  ]
+}

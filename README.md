@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Agenda de contatos
+Aplicativo de agenda de contatos, feito com React pondo na pratica a instrução e orientação da Toti na Turma 15 de "Programador Full-Stack".
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Conteudo
 
-## Available Scripts
+- [Visão geral](#visao-geral)
+  - [Rascunho](#rascunho)
+  - [Links](#links)
+- [Meu processo](#meu-processo)
+  - [Feito com](#feito-com)
+  - [O que eu aprendi](#o-que-eu-aprendi)
+  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+  - [Recursos úteis](#recursos-uteis)
+- [Autor](#autor)
 
-In the project directory, you can run:
+## Visão geral
 
-### `npm start`
+### Rascunho
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- ![](/src/imagens/Portofolio.png)
+<div> 
+  <img align="center" height="150em" src="/src/imagens/Contato.png" />
+  <img align="center" height="150em" src="/src/imagens/Sobre.png" />
+  <img align="center" height="150em" src="/src/imagens/Habilidades.png" />
+</div> -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Links
 
-### `npm test`
+- Codigo na web URL: [GitHub](https://github.com/Akherox/contact-list)
+<!-- - Site ao vivo URL: [Vercel Pages](https://portofolio-akherox.vercel.app/) -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Meu processo
 
-### `npm run build`
+### Feito com
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React e o JSON-Server.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### O que eu aprendi (até agora)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Trabalhar com "react-router-dom" as rotas e o comportamento delas.
 
-### `npm run eject`
+```jsx
+<Routes>
+    <Route exact path="/" element={<Contacts />}/>
+    <Route exact path='/add' element={<AddContact/>}/>
+</Routes>
+```
+Editar conteudo da API.
+```jsx
+<form className="w-[80%] h-full flex flex-col justify-center items-center mt-4">
+                <input value={nome} onChange={(e) => setNome(e.target.value)} type="text" placeholder="Nome do contato" className="w-[80%] bg-white/10 text-xl font-Montserrat font-normal py-4 pl-6 outline-none border border-zinc-400 mt-4" />
+                <button onClick={Update} className="w-[80%] bg-blue-600 text-white text-xl font-Montserrat font-semibold py-4 pl-6 mt-4">Editar Contato</button>
+            </form>
+```
+Tirar a decoração dos links do CSS.
+```css
+.link {
+    text-decoration: none !important;
+    margin-right: 10px;
+}
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Desenvolvimento contínuo
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Tenho dificuldades com os props e os states quando passam informações, vou estudar mais isso.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Recursos úteis
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Recurso das aulas react](https://github.com/toti-br/react-aula-1-turma-15)
+- [Recurso do CSS usado](https://tailwindcss.com/)
+- Estes são os recursos que usei no desenvolvimento desda "APP".
 
-## Learn More
+## Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Bryan Bravo](https://www.linkedin.com/in/alex-bravo-008-mk)
